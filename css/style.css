@@ -1,0 +1,98 @@
+:root {
+    --logo-color: rgb(33, 150, 243);
+    --logo-col:rgb(0, 0, 0);
+    --main:rgb(47, 48, 58);
+    --footer:rgb(255, 255, 255);
+    --foot:rgba(255, 255, 255, 0.6);
+    --button:rgb(245, 244, 250);
+    }
+    .header-name {
+        font-family: "raleway";
+        font-size: 25px;
+        padding-right: 93px;
+    }
+    .footer-name {
+        font-family: "raleway";
+        font-size: 25px;
+    }
+    body {
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: calc(24 / 14);
+        color: var(--black-color);
+    }
+.our-team :nth-child(4) {
+    margin-right: 30px;
+}
+.container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+.our-work :nth-child(3) {
+    margin-right: 30px;
+}
+
+
+.hero {
+    margin-bottom: 120px;
+}
+.details {
+    margin-bottom: 94px;
+}
+.working {
+    margin-bottom: 94px;
+}
+.team {
+    margin-bottom: 94px;
+}
+.people {
+    margin-bottom: 50px;
+}
+.filter-list {
+    margin-bottom: 34px;
+}
+.header-list {
+    display: flex;
+    gap: 50px;
+    padding-right: 344px;
+}
+.header-flex {
+    display: flex;
+    align-items: center;
+}
+.header-number {
+    display: flex;
+    gap: 50px;
+}
+.group {
+    display: flex;
+    gap: 30px;
+}
+.details-item {
+    display: flex;
+}
+.team {
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+
+    padding-bottom: 0px;
+}
+.footer-logo {
+    padding-bottom: 20px;
+}
+
+.filter-list {
+    display: flex;
+    margin: 0 auto;
+}
+.portfolio-list {
+    display: flex;
+    margin-left: 38px;
+    margin-bottom: 30px;
+}
